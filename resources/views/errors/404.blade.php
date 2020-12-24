@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
     <head>
         <!-- Meta -->
@@ -10,10 +10,13 @@
         <meta name="author" content="tarikmanoar">
         <meta name="keywords" content="tarikmanoar, emarts, eCommerce">
         <meta name="robots" content="all">
-
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{ config('app.name', 'Laravel') }}</title>
-
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <!-- Bootstrap Core CSS -->
+        {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{asset('frontend/assets/css/bootstrap.min.css')}}">
 
         <!-- Customizable CSS -->
@@ -167,7 +170,7 @@
                                                 <div class="col-xs-4">
                                                     <div class="image">
                                                         <a href="detail.html"><img
-                                                                src="{{asset('frontend/assets/images/')}}cart.jpg"
+                                                                src="{{asset('frontend/assets/images/cart.jpg')}}"
                                                                 alt=""></a>
                                                     </div>
                                                 </div>
@@ -301,7 +304,7 @@
                                                             <div
                                                                 class="col-xs-12 col-sm-6 col-md-4 col-menu banner-image">
                                                                 <img class="img-responsive"
-                                                                    src="{{asset('frontend/assets/')}}images/banners/top-menu-banner.jpg"
+                                                                    src="{{asset('frontend/assets/images/banners/top-menu-banner.jpg')}}"
                                                                     alt="">
 
 
@@ -393,93 +396,94 @@
 
                                                             <div
                                                                 class="col-xs-12 col-sm-12 col-md-4 col-menu custom-banner">
-                                                                < href="#"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png"></')}}a>
-             </div>
-    </div><!-- /.row -->
-</div><!-- /.yamm-content -->					</li>
-				</ul>
-			</li>
-			<li class=" dropdown hidden-sm">
-
-                                                                    <a href="category.html">Health & Beauty
-                                                                        <span
-                                                                            class="menu-label new-menu hidden-xs">new</span>
-                                                                    </a>
-                                                </li>
-
-                                                <li class="dropdown hidden-sm">
-                                                    <a href="category.html">Watches</a>
-                                                </li>
-
-                                                <li class="dropdown">
-                                                    <a href="contact.html">Jewellery</a>
-                                                </li>
-
-                                                <li class="dropdown">
-                                                    <a href="contact.html">Shoes</a>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a href="contact.html">Kids & Girls</a>
-                                                </li>
-
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-hover="dropdown"
-                                                        data-toggle="dropdown">Pages</a>
-                                                    <ul class="dropdown-menu pages">
-                                                        <li>
-                                                            <div class="yamm-content">
-                                                                <div class="row">
-
-                                                                    <div class="col-xs-12 col-menu">
-                                                                        <ul class="links">
-                                                                            <li><a href="home.html">Home</a></li>
-                                                                            <li><a href="category.html">Category</a>
-                                                                            </li>
-                                                                            <li><a href="detail.html">Detail</a>
-                                                                            </li>
-                                                                            <li><a href="shopping-cart.html">Shopping
-                                                                                    Cart Summary</a></li>
-                                                                            <li><a href="checkout.html">Checkout</a>
-                                                                            </li>
-                                                                            <li><a href="blog.html">Blog</a></li>
-                                                                            <li><a href="blog-details.html">Blog
-                                                                                    Detail</a></li>
-                                                                            <li><a href="contact.html">Contact</a>
-                                                                            </li>
-                                                                            <li><a href="sign-in.html">Sign In</a>
-                                                                            </li>
-                                                                            <li><a href="my-wishlist.html">Wishlist</a>
-                                                                            </li>
-                                                                            <li><a href="terms-conditions.html">Terms
-                                                                                    and Condition</a></li>
-                                                                            <li><a href="track-orders.html">Track
-                                                                                    Orders</a></li>
-                                                                            <li><a
-                                                                                    href="product-comparison.html">Product-Comparison</a>
-                                                                            </li>
-                                                                            <li><a href="faq.html">FAQ</a></li>
-                                                                            <li><a href="404.html">404</a></li>
-
-                                                                        </ul>
-                                                                    </div>
-
-
-
-                                                                </div>
+                                                                <a href="#"><img alt=""
+                                                                        src="{{asset('frontend/assets/images/banners/banner-side.png')}}"></a>
                                                             </div>
-                                                        </li>
-
-
-
-                                                    </ul>
+                                                        </div><!-- /.row -->
+                                                    </div><!-- /.yamm-content -->
                                                 </li>
-                                                <li class="dropdown  navbar-right special-menu">
-                                                    <a href="#">Todays offer</a>
+                                            </ul>
+                                        </li>
+                                        <li class=" dropdown hidden-sm">
+
+                                            <a href="category.html">Health & Beauty
+                                                <span class="menu-label new-menu hidden-xs">new</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="dropdown hidden-sm">
+                                            <a href="category.html">Watches</a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="contact.html">Jewellery</a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="contact.html">Shoes</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="contact.html">Kids & Girls</a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-hover="dropdown"
+                                                data-toggle="dropdown">Pages</a>
+                                            <ul class="dropdown-menu pages">
+                                                <li>
+                                                    <div class="yamm-content">
+                                                        <div class="row">
+
+                                                            <div class="col-xs-12 col-menu">
+                                                                <ul class="links">
+                                                                    <li><a href="home.html">Home</a></li>
+                                                                    <li><a href="category.html">Category</a>
+                                                                    </li>
+                                                                    <li><a href="detail.html">Detail</a>
+                                                                    </li>
+                                                                    <li><a href="shopping-cart.html">Shopping
+                                                                            Cart Summary</a></li>
+                                                                    <li><a href="checkout.html">Checkout</a>
+                                                                    </li>
+                                                                    <li><a href="blog.html">Blog</a></li>
+                                                                    <li><a href="blog-details.html">Blog
+                                                                            Detail</a></li>
+                                                                    <li><a href="contact.html">Contact</a>
+                                                                    </li>
+                                                                    <li><a href="sign-in.html">Sign In</a>
+                                                                    </li>
+                                                                    <li><a href="my-wishlist.html">Wishlist</a>
+                                                                    </li>
+                                                                    <li><a href="terms-conditions.html">Terms
+                                                                            and Condition</a></li>
+                                                                    <li><a href="track-orders.html">Track
+                                                                            Orders</a></li>
+                                                                    <li><a
+                                                                            href="product-comparison.html">Product-Comparison</a>
+                                                                    </li>
+                                                                    <li><a href="faq.html">FAQ</a></li>
+                                                                    <li><a href="404.html">404</a></li>
+
+                                                                </ul>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
                                                 </li>
 
 
-                                            </ul><!-- /.navbar-nav -->
-                                            <div class="clearfix"></div>
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown  navbar-right special-menu">
+                                            <a href="#">Todays offer</a>
+                                        </li>
+
+
+                                    </ul><!-- /.navbar-nav -->
+                                    <div class="clearfix"></div>
                                 </div><!-- /.nav-outer -->
                             </div><!-- /.navbar-collapse -->
 
@@ -655,7 +659,7 @@
         <!-- For demo purposes – can be removed on production : End -->
 
         <!-- JavaScripts placed at the end of the document so the pages load faster -->
-        <script src=" {{asset('frontend/assets/js/jquery-1.11.1.min.js')}}"></script>
+        <script src=" {{asset('frontend/assets/js/jquery.js')}}"></script>
 
         <script src="{{asset('frontend/assets/js/bootstrap.min.js')}}"></script>
 
@@ -670,29 +674,10 @@
         <script src=" {{asset('frontend/assets/js/bootstrap-select.min.js')}}"></script>
         <script src="{{asset('frontend/assets/js/wow.min.js')}}"></script>
         <script src=" {{asset('frontend/assets/js/scripts.js')}}"></script>
-
-        <!-- For demo purposes – can be removed on production -->
-
-        <script src="switchstylesheet/switchstylesheet.js">
-        </script>
-
         <script>
             $(document).ready(function(){
-			$(".changecolor").switchstylesheet( { seperator:"color"} );
-			$('.show-theme-options').click(function(){
-				$(this).parent().toggleClass('open');
-				return false;
-			});
-		});
-
-		$(window).bind("load", function() {
-		   $('.show-theme-options').delay(2000).trigger('click');
-		});
+            });
         </script>
-        <!-- For demo purposes – can be removed on production : End -->
-
-
-
     </body>
 
 </html>
