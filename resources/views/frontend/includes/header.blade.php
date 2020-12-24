@@ -10,6 +10,7 @@
         <meta name="author" content="tarikmanoar">
         <meta name="keywords" content="tarikmanoar, emarts, eCommerce">
         <meta name="robots" content="all">
+        <link rel="shortcut icon" href="{{asset('/frontend/assets/images/favicon.png')}}" type="image/x-icon">
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{ config('app.name', 'Laravel') }}</title>
