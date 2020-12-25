@@ -111,8 +111,6 @@
                                         <a href="checkout.html"
                                             class="btn btn-upper btn-primary btn-block m-t-20">Checkout</a>
                                     </div><!-- /.cart-total-->
-
-
                                 </li>
                             </ul><!-- /.dropdown-menu-->
                         </div><!-- /.dropdown-cart -->
@@ -128,5 +126,7 @@
     </header>
 
     <!-- ============================================== HEADER : END ============================================== -->
-    @yield('content')
+    <div id="app">
+        @yield('content')
+    </div>
     @include('frontend.includes.footer')

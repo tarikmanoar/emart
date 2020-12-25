@@ -13,59 +13,59 @@
                     <nav class="yamm megamenu-horizontal" role="navigation">
                         <ul class="nav">
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-shopping-bag" aria-hidden="true"></i>Clothing</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-shopping-bag" aria-hidden="true"></i>Clothing</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes </a></li>
+                                                    <li><a href="{{url('/')}}">Jackets</a></li>
+                                                    <li><a href="{{url('/')}}">Sunglasses</a></li>
+                                                    <li><a href="{{url('/')}}">Sport Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Blazers</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{url('/')}}">Handbags</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Swimwear </a></li>
+                                                    <li><a href="{{url('/')}}">Tops</a></li>
+                                                    <li><a href="{{url('/')}}">Flats</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">Winter Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{url('/')}}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{url('/')}}">Jeans</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">School Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Lunch Box</a></li>
+                                                    <li><a href="{{url('/')}}">Footwear</a></li>
+                                                    <li><a href="{{url('/')}}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{url('/')}}">Sandals </a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Night Dress</a></li>
+                                                    <li><a href="{{url('/')}}">Swim Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Toys</a></li>
 
                                                 </ul>
                                             </div>
@@ -80,43 +80,43 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-laptop" aria-hidden="true"></i>Electronics</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-laptop" aria-hidden="true"></i>Electronics</a>
                                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{url('/')}}">Gaming</a></li>
+                                                    <li><a href="{{url('/')}}">Laptop Skins</a></li>
+                                                    <li><a href="{{url('/')}}">Apple</a></li>
+                                                    <li><a href="{{url('/')}}">Dell</a></li>
+                                                    <li><a href="{{url('/')}}">Lenovo</a></li>
+                                                    <li><a href="{{url('/')}}">Microsoft</a></li>
+                                                    <li><a href="{{url('/')}}">Asus</a></li>
+                                                    <li><a href="{{url('/')}}">Adapters</a></li>
+                                                    <li><a href="{{url('/')}}">Batteries</a></li>
+                                                    <li><a href="{{url('/')}}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{url('/')}}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{url('/')}}">CPUs, Processors</a></li>
+                                                    <li><a href="{{url('/')}}">PC Gaming Store</a></li>
+                                                    <li><a href="{{url('/')}}">Graphics Cards</a></li>
+                                                    <li><a href="{{url('/')}}">Components</a></li>
+                                                    <li><a href="{{url('/')}}">Webcam</a></li>
+                                                    <li><a href="{{url('/')}}">Memory (RAM)</a></li>
+                                                    <li><a href="{{url('/')}}">Motherboards</a></li>
+                                                    <li><a href="{{url('/')}}">Keyboards</a></li>
+                                                    <li><a href="{{url('/')}}">Headphones</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="dropdown-banner-holder">
-                                                <a href="#"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
+                                                <a href="{{url('/')}}"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
                                             </div>
                                         </div>
                                         <!-- /.row -->
@@ -129,59 +129,59 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-paw" aria-hidden="true"></i>Shoes</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-paw" aria-hidden="true"></i>Shoes</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes </a></li>
+                                                    <li><a href="{{url('/')}}">Jackets</a></li>
+                                                    <li><a href="{{url('/')}}">Sunglasses</a></li>
+                                                    <li><a href="{{url('/')}}">Sport Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Blazers</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{url('/')}}">Handbags</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Swimwear </a></li>
+                                                    <li><a href="{{url('/')}}">Tops</a></li>
+                                                    <li><a href="{{url('/')}}">Flats</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">Winter Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{url('/')}}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{url('/')}}">Jeans</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">School Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Lunch Box</a></li>
+                                                    <li><a href="{{url('/')}}">Footwear</a></li>
+                                                    <li><a href="{{url('/')}}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{url('/')}}">Sandals </a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Night Dress</a></li>
+                                                    <li><a href="{{url('/')}}">Swim Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Toys</a></li>
 
                                                 </ul>
                                             </div>
@@ -196,42 +196,42 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-clock-o"></i>Watches</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-clock-o"></i>Watches</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{url('/')}}">Gaming</a></li>
+                                                    <li><a href="{{url('/')}}">Laptop Skins</a></li>
+                                                    <li><a href="{{url('/')}}">Apple</a></li>
+                                                    <li><a href="{{url('/')}}">Dell</a></li>
+                                                    <li><a href="{{url('/')}}">Lenovo</a></li>
+                                                    <li><a href="{{url('/')}}">Microsoft</a></li>
+                                                    <li><a href="{{url('/')}}">Asus</a></li>
+                                                    <li><a href="{{url('/')}}">Adapters</a></li>
+                                                    <li><a href="{{url('/')}}">Batteries</a></li>
+                                                    <li><a href="{{url('/')}}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{url('/')}}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{url('/')}}">CPUs, Processors</a></li>
+                                                    <li><a href="{{url('/')}}">PC Gaming Store</a></li>
+                                                    <li><a href="{{url('/')}}">Graphics Cards</a></li>
+                                                    <li><a href="{{url('/')}}">Components</a></li>
+                                                    <li><a href="{{url('/')}}">Webcam</a></li>
+                                                    <li><a href="{{url('/')}}">Memory (RAM)</a></li>
+                                                    <li><a href="{{url('/')}}">Motherboards</a></li>
+                                                    <li><a href="{{url('/')}}">Keyboards</a></li>
+                                                    <li><a href="{{url('/')}}">Headphones</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="dropdown-banner-holder">
-                                                <a href="#"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
+                                                <a href="{{url('/')}}"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
                                             </div>
                                         </div>
                                         <!-- /.row -->
@@ -243,59 +243,59 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-diamond"></i>Jewellery</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-diamond"></i>Jewellery</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shoes </a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Sunglasses</a></li>
-                                                    <li><a href="#">Sport Wear</a></li>
-                                                    <li><a href="#">Blazers</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes </a></li>
+                                                    <li><a href="{{url('/')}}">Jackets</a></li>
+                                                    <li><a href="{{url('/')}}">Sunglasses</a></li>
+                                                    <li><a href="{{url('/')}}">Sport Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Blazers</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Handbags</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Swimwear </a></li>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Flats</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">Winter Wear</a></li>
-                                                    <li><a href="#">Night Suits</a></li>
+                                                    <li><a href="{{url('/')}}">Handbags</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Swimwear </a></li>
+                                                    <li><a href="{{url('/')}}">Tops</a></li>
+                                                    <li><a href="{{url('/')}}">Flats</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">Winter Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Night Suits</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Toys &amp; Games</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">Shoes</a></li>
-                                                    <li><a href="#">School Bags</a></li>
-                                                    <li><a href="#">Lunch Box</a></li>
-                                                    <li><a href="#">Footwear</a></li>
-                                                    <li><a href="#">Wipes</a></li>
+                                                    <li><a href="{{url('/')}}">Toys &amp; Games</a></li>
+                                                    <li><a href="{{url('/')}}">Jeans</a></li>
+                                                    <li><a href="{{url('/')}}">Shirts</a></li>
+                                                    <li><a href="{{url('/')}}">Shoes</a></li>
+                                                    <li><a href="{{url('/')}}">School Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Lunch Box</a></li>
+                                                    <li><a href="{{url('/')}}">Footwear</a></li>
+                                                    <li><a href="{{url('/')}}">Wipes</a></li>
                                                 </ul>
                                             </div>
                                             <!-- /.col -->
                                             <div class="col-sm-12 col-md-3">
                                                 <ul class="links list-unstyled">
-                                                    <li><a href="#">Sandals </a></li>
-                                                    <li><a href="#">Shorts</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Jwellery</a></li>
-                                                    <li><a href="#">Bags</a></li>
-                                                    <li><a href="#">Night Dress</a></li>
-                                                    <li><a href="#">Swim Wear</a></li>
-                                                    <li><a href="#">Toys</a></li>
+                                                    <li><a href="{{url('/')}}">Sandals </a></li>
+                                                    <li><a href="{{url('/')}}">Shorts</a></li>
+                                                    <li><a href="{{url('/')}}">Dresses</a></li>
+                                                    <li><a href="{{url('/')}}">Jwellery</a></li>
+                                                    <li><a href="{{url('/')}}">Bags</a></li>
+                                                    <li><a href="{{url('/')}}">Night Dress</a></li>
+                                                    <li><a href="{{url('/')}}">Swim Wear</a></li>
+                                                    <li><a href="{{url('/')}}">Toys</a></li>
 
                                                 </ul>
                                             </div>
@@ -310,42 +310,42 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-heartbeat"></i>Health and Beauty</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-heartbeat"></i>Health and Beauty</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="yamm-content">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Gaming</a></li>
-                                                    <li><a href="#">Laptop Skins</a></li>
-                                                    <li><a href="#">Apple</a></li>
-                                                    <li><a href="#">Dell</a></li>
-                                                    <li><a href="#">Lenovo</a></li>
-                                                    <li><a href="#">Microsoft</a></li>
-                                                    <li><a href="#">Asus</a></li>
-                                                    <li><a href="#">Adapters</a></li>
-                                                    <li><a href="#">Batteries</a></li>
-                                                    <li><a href="#">Cooling Pads</a></li>
+                                                    <li><a href="{{url('/')}}">Gaming</a></li>
+                                                    <li><a href="{{url('/')}}">Laptop Skins</a></li>
+                                                    <li><a href="{{url('/')}}">Apple</a></li>
+                                                    <li><a href="{{url('/')}}">Dell</a></li>
+                                                    <li><a href="{{url('/')}}">Lenovo</a></li>
+                                                    <li><a href="{{url('/')}}">Microsoft</a></li>
+                                                    <li><a href="{{url('/')}}">Asus</a></li>
+                                                    <li><a href="{{url('/')}}">Adapters</a></li>
+                                                    <li><a href="{{url('/')}}">Batteries</a></li>
+                                                    <li><a href="{{url('/')}}">Cooling Pads</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-xs-12 col-sm-12 col-lg-4">
                                                 <ul>
-                                                    <li><a href="#">Routers &amp; Modems</a></li>
-                                                    <li><a href="#">CPUs, Processors</a></li>
-                                                    <li><a href="#">PC Gaming Store</a></li>
-                                                    <li><a href="#">Graphics Cards</a></li>
-                                                    <li><a href="#">Components</a></li>
-                                                    <li><a href="#">Webcam</a></li>
-                                                    <li><a href="#">Memory (RAM)</a></li>
-                                                    <li><a href="#">Motherboards</a></li>
-                                                    <li><a href="#">Keyboards</a></li>
-                                                    <li><a href="#">Headphones</a></li>
+                                                    <li><a href="{{url('/')}}">Routers &amp; Modems</a></li>
+                                                    <li><a href="{{url('/')}}">CPUs, Processors</a></li>
+                                                    <li><a href="{{url('/')}}">PC Gaming Store</a></li>
+                                                    <li><a href="{{url('/')}}">Graphics Cards</a></li>
+                                                    <li><a href="{{url('/')}}">Components</a></li>
+                                                    <li><a href="{{url('/')}}">Webcam</a></li>
+                                                    <li><a href="{{url('/')}}">Memory (RAM)</a></li>
+                                                    <li><a href="{{url('/')}}">Motherboards</a></li>
+                                                    <li><a href="{{url('/')}}">Keyboards</a></li>
+                                                    <li><a href="{{url('/')}}">Headphones</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="dropdown-banner-holder">
-                                                <a href="#"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
+                                                <a href="{{url('/')}}"><img alt="" src="{{asset('frontend/assets/images/banners/banner-side.png')}}" /></a>
                                             </div>
                                         </div>
                                         <!-- /.row -->
@@ -357,13 +357,13 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-paper-plane"></i>Kids and Babies</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-paper-plane"></i>Kids and Babies</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-futbol-o"></i>Sports</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-futbol-o"></i>Sports</a>
                                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
                                 <!-- /.dropdown-menu -->
                                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
@@ -371,7 +371,7 @@
                             <!-- /.menu-item -->
 
                             <li class="dropdown menu-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-envira"></i>Home and Garden</a>
+                                <a href="{{url('/')}}" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-envira"></i>Home and Garden</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                             <!-- /.menu-item -->
@@ -630,7 +630,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p30.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -644,7 +644,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -668,7 +668,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p29.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -681,7 +681,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -705,7 +705,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p28.jpg')}}" alt="">
 
                                                             </a>
@@ -720,7 +720,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -748,7 +748,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p27.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -761,7 +761,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -785,7 +785,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p26.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -797,7 +797,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -821,7 +821,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p25.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -834,7 +834,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -862,7 +862,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p24.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -875,7 +875,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -899,7 +899,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p23.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -913,7 +913,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -936,7 +936,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p22.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -949,7 +949,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1010,7 +1010,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p28.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1023,7 +1023,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1047,7 +1047,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p15.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1060,7 +1060,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1084,7 +1084,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img data-echo="{{asset('frontend/assets/images/products/p26.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1097,7 +1097,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1125,7 +1125,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p18.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1138,7 +1138,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1162,7 +1162,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p17.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1176,7 +1176,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1200,7 +1200,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p16.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1213,7 +1213,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1240,7 +1240,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img data-echo="{{asset('frontend/assets/images/products/p15.jpg')}}" alt="">
                                                                 <div class="zoom-overlay"></div>
                                                             </a>
@@ -1255,7 +1255,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1279,7 +1279,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p14.jpg')}}" alt="">
                                                                 <div class="zoom-overlay"></div>
                                                             </a>
@@ -1294,7 +1294,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1318,7 +1318,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p13.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -1331,7 +1331,7 @@
                                                 <!-- /.col -->
                                                 <div class="col col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Shirt</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -1534,10 +1534,10 @@
                     <div class="more-info-tab clearfix ">
                         <h3 class="new-product-title pull-left">New Products</h3>
                         <ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
-                            <li class="active"><a data-transition-type="backSlide" href="#all" data-toggle="tab">All</a></li>
-                            <li><a data-transition-type="backSlide" href="#smartphone" data-toggle="tab">Clothing</a></li>
-                            <li><a data-transition-type="backSlide" href="#laptop" data-toggle="tab">Electronics</a></li>
-                            <li><a data-transition-type="backSlide" href="#apple" data-toggle="tab">Shoes</a></li>
+                            <li class="active"><a data-transition-type="backSlide" href="{{url('/')}}all" data-toggle="tab">All</a></li>
+                            <li><a data-transition-type="backSlide" href="{{url('/')}}smartphone" data-toggle="tab">Clothing</a></li>
+                            <li><a data-transition-type="backSlide" href="{{url('/')}}laptop" data-toggle="tab">Electronics</a></li>
+                            <li><a data-transition-type="backSlide" href="{{url('/')}}apple" data-toggle="tab">Shoes</a></li>
                         </ul>
                         <!-- /.nav-tabs -->
                     </div>
@@ -3619,7 +3619,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p20.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3633,7 +3633,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3657,7 +3657,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p21.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3670,7 +3670,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3698,7 +3698,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p22.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3711,7 +3711,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3735,7 +3735,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p23.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3749,7 +3749,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3777,7 +3777,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p24.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3791,7 +3791,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3815,7 +3815,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p25.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3828,7 +3828,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3856,7 +3856,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p26.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3870,7 +3870,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3894,7 +3894,7 @@
                                                 <div class="col col-xs-5">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <a href="#">
+                                                            <a href="{{url('/')}}">
                                                                 <img src="{{asset('frontend/assets/images/products/p27.jpg')}}" alt="">
                                                             </a>
                                                         </div>
@@ -3907,7 +3907,7 @@
                                                 <!-- /.col -->
                                                 <div class="col2 col-xs-7">
                                                     <div class="product-info">
-                                                        <h3 class="name"><a href="#">Floral Print Buttoned</a></h3>
+                                                        <h3 class="name"><a href="{{url('/')}}">Floral Print Buttoned</a></h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="product-price">
                                                             <span class="price">
@@ -3951,10 +3951,10 @@
 
 
                                     <div class="blog-post-info text-left">
-                                        <h3 class="name"><a href="#">Voluptatem accusantium doloremque laudantium</a></h3>
+                                        <h3 class="name"><a href="{{url('/')}}">Voluptatem accusantium doloremque laudantium</a></h3>
                                         <span class="info">By Jone Doe &nbsp;|&nbsp; 21 March 2016 </span>
                                         <p class="text">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                                        <a href="#" class="lnk btn btn-primary">Read more</a>
+                                        <a href="{{url('/')}}" class="lnk btn btn-primary">Read more</a>
                                     </div>
                                     <!-- /.blog-post-info -->
 
@@ -3976,10 +3976,10 @@
 
 
                                     <div class="blog-post-info text-left">
-                                        <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
+                                        <h3 class="name"><a href="{{url('/')}}">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
                                         <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
                                         <p class="text">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                                        <a href="#" class="lnk btn btn-primary">Read more</a>
+                                        <a href="{{url('/')}}" class="lnk btn btn-primary">Read more</a>
                                     </div>
                                     <!-- /.blog-post-info -->
 
@@ -4004,10 +4004,10 @@
 
 
                                     <div class="blog-post-info text-left">
-                                        <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
+                                        <h3 class="name"><a href="{{url('/')}}">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
                                         <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
                                         <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                                        <a href="#" class="lnk btn btn-primary">Read more</a>
+                                        <a href="{{url('/')}}" class="lnk btn btn-primary">Read more</a>
                                     </div>
                                     <!-- /.blog-post-info -->
 
@@ -4029,10 +4029,10 @@
 
 
                                     <div class="blog-post-info text-left">
-                                        <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
+                                        <h3 class="name"><a href="{{url('/')}}">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
                                         <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
                                         <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                                        <a href="#" class="lnk btn btn-primary">Read more</a>
+                                        <a href="{{url('/')}}" class="lnk btn btn-primary">Read more</a>
                                     </div>
                                     <!-- /.blog-post-info -->
 
@@ -4054,10 +4054,10 @@
 
 
                                     <div class="blog-post-info text-left">
-                                        <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
+                                        <h3 class="name"><a href="{{url('/')}}">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
                                         <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
                                         <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                                        <a href="#" class="lnk btn btn-primary">Read more</a>
+                                        <a href="{{url('/')}}" class="lnk btn btn-primary">Read more</a>
                                     </div>
                                     <!-- /.blog-post-info -->
 
@@ -4482,85 +4482,7 @@
         </div>
         <!-- /.row -->
         <!-- ============================================== BRANDS CAROUSEL ============================================== -->
-        <div id="brands-carousel" class="logo-slider wow fadeInUp">
-
-            <div class="logo-slider-inner">
-                <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
-                    <div class="item m-t-15">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand1.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item m-t-10">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand2.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand3.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand4.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand5.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand6.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand2.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand4.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand1.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="{{asset('frontend/assets/images/brands/brand5.png')}}" src="{{asset('frontend/assets/images/blank.gif')}}" alt="">
-                        </a>
-                    </div>
-                    <!--/.item-->
-                </div>
-                <!-- /.owl-carousel #logo-slider -->
-            </div>
-            <!-- /.logo-slider-inner -->
-
-        </div>
+        {{-- @include('frontend.includes.brand') --}}
         <!-- /.logo-slider -->
         <!-- ============================================== BRANDS CAROUSEL : END ============================================== -->
     </div>
