@@ -1,4 +1,5 @@
 @extends('frontend.layout.app')
+@section('title',config('app.name'))
 @section('content')
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="body-content outer-top-xs" id="top-banner-and-menu">
