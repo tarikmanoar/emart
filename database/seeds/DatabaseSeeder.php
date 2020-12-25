@@ -16,18 +16,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UserSeeder::class);
-        factory(User::class,1)->create();
+        factory(User::class, 1)->create();
 
 
 
         // Permission Seedr
         $permissionsByRole = [
-            'admin'     => 'admin.permission',
-            'teacher'   => 'teacher.permission',
-            'parent'    => 'parent.permission',
-            'account'   => 'account.permission',
-            'student'   => 'student.permission',
-            'librarian' => 'librarian.permission'
+            'admin'  => 'admin.permission',
+            'user'   => 'user.permission',
+            'editor' => 'editor.permission',
         ];
         foreach ($permissionsByRole as $role => $permission) {
             Role::create(['name'=>$role]);

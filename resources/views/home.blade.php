@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    {{request()->routeIs('index')?'active':''}}
                     {{ __('You are logged in!') }}
                 </div>
             </div>

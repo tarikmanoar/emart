@@ -15,10 +15,10 @@ class MultiAuthMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if (auth()->user()->role == 'admin' || auth()->user()->role == 'teacher'|| auth()->user()->role == 'parent'|| auth()->user()->role == 'student'|| auth()->user()->role == 'accountant'|| auth()->user()->role == 'librarian') {
+        if (auth()->user()->role == 'admin' || auth()->user()->role == 'user'|| auth()->user()->role == 'editor') {
             return $next($request);
         }
-        toast('Permission Denied','warning');
+        toast('Permission Denied', 'warning');
         return redirect("/");
     }
 }
